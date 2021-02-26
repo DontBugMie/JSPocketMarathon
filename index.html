@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>Pocket Marathon</title>
+    </head>
+    <body>
+        <div class="appContainer">
+            <!-- HOME PAGE -->
+            <div class="page homePage" id="homePage">
+                <!-- Also the congratulations youve completed your run -->
+                <div class="headerContainer">
+                    <h1 class="header" id="welcomeHeader">Welcome</h1>
+                    <h1 class="header" id="welcomeHeaderSecondLine">Back</h1>
+                </div>
+                
+                <button class="btn newRunBtn" id="newRunBtn"> NEW RUN </button>
+                <div class="calendar" id="calendarContainer">
+                    <h3>JAN</h3>
+                    <div class="calendar month" id="calendarMonth">
+                        <button class="btn" id="leftCalendarBtn"><</button>
+                        <div class="monthContainer" id="monthContainer">
+                            
+                            <div class="day" id=""></div>
+                    </div>
+                    <button class="btn" id="rightCalendarBtn">></button>
+                </div>
+            </div>
+        </div>
+        
+        <!-- CREATE RUN PAGE / TOTAL RUNS PAGE -->
+        <div class="page" id="createRunPage">
+            <div class="screen runMakerScreen" id="runMakerScreen">
+                <div class="runInterval runInterval0 runIntervalStart" id="">🏃🏾‍♂️Start🏃🏾</div>
+                
+                <!-- <div class="runInterval runInterval1" id="">Run 1</div>
+                <div class="runInterval runInterval2" id="">Run 2</div>
+                <div class="runInterval runInterval3" id="">Run 5</div>
+                <div class="runInterval runInterval4" id="">Run 4</div>
+                <div class="runInterval runInterval5" id="">Run 3</div>
+                <div class="runInterval runInterval6" id="">Run 6</div> -->
+                
+ 
+                <div class="runInterval runIntervalFinish" id="">🏆 Finish 🏆</div>
+               
+               
+                
+                <!-- <div class="runInterval runInterval1" id=""></div>
+                <div class="runInterval runInterval2" id=""></div>
+                <div class="runInterval runInterval3" id=""></div>
+                <div class="runInterval runInterval0" id=""></div>
+                <div class="runInterval runInterval5" id=""></div>
+                <div class="runInterval runInterval6" id=""></div> -->
+                
+               
+            </div>
+
+
+            <div class="screen timeMakerScreen" id="timeMakerScreen">
+                
+                
+                <div class="timeContainer" id="timeContainer">
+                    <div class="hoursContainer" id="hoursContainer">
+                        <span><input class=" times hr" id="hr" placeholder=''></input></span>
+                        hrs
+                        <span><input class="times min" id="min" placeholder=''></input></span>
+                        mins
+                        <span><input class="times sec" id="sec" placeholder=''></input></span>
+                        secs
+                    </div>
+                    
+                </div>
+                <div class="speedContainer">
+                    <span class="speedBtn walkBtn" id="walkBtn">WALK</span>
+                    <span class="speedBtn jogBtn" id="jogBtn">JOG</span>
+                    <span class="speedBtn runBtn" id="runBtn">RUN</span>
+                </div>
+
+                <div class="addSpeedIntervalContainer">
+                    <span class="speedIntervalBtn addSpeedIntervalBtn" id="addSpeedInterval">ADD</span>
+                    <span class="speedIntervalBtn" id="">REMOVE</span>
+                    <span class="speedIntervalBtn startBtn" id="">START</span>
+                </div>
+            </div>
+        </div>
+    </div>
+        
+        <!-- ACTUAL RUN PAGE -->
+        <div class="page activity warmupPage" id="warmupPage">
+            <h1 class="warmup text">WARM UP</h1>
+        </div>
+        <div class="page activity walkingg" id="walkPage">
+            <h1 class="walking text">WALK</h1>
+        </div>
+        <div class="page activity joggingg" id="jogPage">
+            <h1 class="jogging text">JOG</h1>
+        </div>
+        <div class="page activity runningg" id="runPage">
+            <h1 class="running text">RUN</h1>
+        </div>
+        
+        
+    <script src="app.js"></script>
+</body>
+</html>

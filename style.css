@@ -1,0 +1,250 @@
+*,*::before,*::after{
+    padding: 0;
+    margin:0;
+}
+
+body{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background: lemonchiffon;
+    overflow: hidden;
+}
+
+.appContainer{
+    width: 90%;
+    justify-content: center;
+    text-align: center;
+    background: pink;
+    height: 100vh;
+}
+.headerContainer{
+    margin-top: 5%;
+}
+
+#welcomeHeader{
+    text-align: left;
+}
+#welcomeHeaderSecondLine{
+    text-align: right;
+}
+
+#btn{
+    
+}
+
+#newRunBtn{
+    padding: 4%;
+    padding-left: 10%;
+    padding-right: 10%;
+    margin: 10%;
+}
+
+.month{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background: rgb(169, 207, 238);
+    justify-items: center;
+}
+
+.monthContainer{
+    display: flex;
+    width: 218px;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    width: 70%;
+    background: rgb(228, 228, 228);
+    padding: 5%;
+}
+
+.day{
+    width:20px;
+    height: 20px;
+    border-radius: 10%;
+    margin: 1%;
+    background: rgb(255, 255, 225); 
+    border: solid black 1px;
+}
+
+
+
+
+/* create run page */
+
+#createRunPage{
+    background: chartreuse;
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+
+.runMakerScreen{
+    /* padding: 5%; */
+    background: coral;
+    justify-content: center;
+    align-content: center;
+    height: 45%;
+    display: flex;
+    flex-wrap: wrap;
+    overflow-y: scroll;
+}
+
+.runInterval{
+    width: 30%;
+    height: 30%;
+    border-width: 3px;
+    
+    /* background: crimson; */
+    /* border: solid cyan 1px; */
+}
+
+.runInterval4{
+    border-top: solid blue;
+    /* background: orchid; */
+}
+.runInterval1{
+    border-top: solid yellow;
+     /* background: orangered; */
+}
+.runInterval2{
+    border-top: solid rgb(0, 255, 34);
+    border-right: solid rgb(0, 255, 34);
+    border-bottom: solid rgb(0, 255, 34);
+    border-bottom-right-radius: 50%;
+    border-top-right-radius: 50%;
+    /* background: orange; */
+}
+.runInterval3{
+    border-top: solid rgb(0, 255, 34);
+    border-left: solid rgb(0, 255, 34);
+    border-bottom: solid rgb(0, 255, 34);
+    border-bottom-left-radius: 50%;
+    border-top-left-radius: 50%;
+    /* background: pink; */
+}
+
+/* .runIntervalFinish, .runIntervalStart{
+    border-top: solid white;
+} */
+
+
+.timeMakerScreen{
+    background: cornflowerblue;
+    height: 100%;
+    padding: 5%;
+}
+
+.speedContainer{
+    display: flex;
+    background: turquoise;
+    justify-content: space-evenly;
+}
+.speedBtn, .speedIntervalBtn{
+    padding: 4%;
+    width: 20%;
+    border: solid black 1px;
+}
+
+#walkBtn{
+    background: tomato;
+}
+
+#jogBtn{
+    background: rgb(255, 157, 0);
+}
+#runBtn{
+    background: rgb(14, 252, 53);
+}
+
+#addSpeedInterval{
+    background: white;
+}
+
+.timeContainer{
+    background: violet;
+    padding: 5%;
+}
+.hoursContainer{
+    background: rgb(201, 11, 201);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.addSpeedIntervalContainer{
+    padding-top: 15%;
+}
+
+.activity{
+    width: 92vw;
+    height: 100vh;
+    position: absolute;
+}
+
+.warmupPage{
+    background: rgb(206, 83, 223);
+    z-index: -1;
+}
+
+.walkingg{
+    background: rgb(255, 0, 0);
+    z-index: -1;
+}
+
+.joggingg{
+    background: orange;
+    z-index: -1;
+}
+
+.runningg{
+    background: greenyellow;
+    z-index: -1;
+}
